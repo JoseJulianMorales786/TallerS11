@@ -31,9 +31,7 @@ void registrarLibro(Libro biblioteca[], int contador) {
             continue;
         }
 
-        // Convertir el primer numero ingresado a entero
-        sscanf(idInput, "%d", &nuevoLibro.id);
-
+        
         // Verificar que el ID sea unico
         int idUnico = 1;
         for (int i = 0; i < contador; i++) {
